@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字号 -->
+    <dimen name="text_24_size">24sp</dimen>
+    <dimen name="text_20_size">20sp</dimen>
+    <dimen name="text_18_size">18sp</dimen>
+    <dimen name="text_16_size">16sp</dimen>
+    <dimen name="text_14_size">14sp</dimen>
+    <dimen name="text_12_size">12sp</dimen>
+    <!-- 距离 -->
+    <dimen name="distance_32_size">32dp</dimen>
+    <dimen name="distance_16_size">16dp</dimen>
+    <dimen name="distance_12_size">12dp</dimen>
+    <dimen name="distance_8_size">8dp</dimen>
+    <dimen name="distance_4_size">4dp</dimen>
+    <!-- 特殊 -->
+    <dimen name="one">1dip</dimen>
+    <dimen name="radius_corners">5dip</dimen>
+    <dimen name="icon_width">48dip</dimen>
+    <dimen name="actionbar_height">45dip</dimen>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/probar_common_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@anim/rotate_progress"
+        android:maxHeight="80dip"
+        android:maxWidth="80dip"
+        android:minHeight="80dip"
+        android:minWidth="80dip" />
+
+</LinearLayout>

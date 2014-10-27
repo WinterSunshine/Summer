@@ -1,0 +1,90 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:textColorPrimaryInverse">@color/dark_gray</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slider_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slider_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slider_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slider_out_right</item>
+    </style>
+
+    <!-- 组合条目样式集 -->
+    <style name="GroupContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="GroupContainer.Normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="GroupContainer.Panel">
+        <item name="android:padding">@dimen/distance_8_size</item>
+    </style>
+
+    <!-- Common样式 -->
+    <style name="CommonView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/distance_8_size</item>
+    </style>
+
+    <style name="CommonView.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:layout_marginBottom">@dimen/distance_12_size</item>
+        <item name="android:layout_marginTop">@dimen/distance_12_size</item>
+        <item name="android:layout_marginLeft">@dimen/distance_12_size</item>
+        <item name="android:layout_marginRight">@dimen/distance_12_size</item>
+        <item name="android:textSize">@dimen/text_18_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- 青色按钮 -->
+    <style name="CommonView.Button.Cyan">
+        <item name="android:background">@drawable/selector_common_round_cyan_btn</item>
+    </style>
+
+    <!-- 水平分割线 -->
+    <style name="CommonView.HorizontalLineDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/one</item>
+        <item name="android:background">@drawable/horizontal_divider_line</item>
+    </style>
+
+    <!-- 垂直分割线 -->
+    <style name="CommonView.VerticalLineDivider">
+        <item name="android:layout_width">@dimen/one</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/light_blue</item>
+    </style>
+
+    <!-- Dialog样式 -->
+    <style name="CommonView.Dialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="CommonView.Dialog.Loading">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="CommonView.Dialog.Error">
+        <item name="android:windowBackground">@drawable/bg_dialog</item>
+    </style>
+
+    <style name="BottomToTopAnim" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/bottomview_anim_enter</item>
+        <item name="@android:windowExitAnimation">@anim/bottomview_anim_exit</item>
+    </style>
+
+</resources>

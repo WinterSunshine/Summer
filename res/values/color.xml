@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 深灰色  背景色 -->
+    <color name="gray">#ededed</color>
+    <color name="dark_black">#222222</color>
+    <color name="light_black">#272727</color>
+
+    <!-- 橘红色  字体 -->
+    <color name="orange">#e63522</color>
+    <!-- 青蓝色 字体 -->
+    <color name="light_blue">#46a3a1</color>
+    <!-- 深灰色 字体 -->
+    <color name="dark_gray">#3f3f3f</color>
+    <!-- 浅灰色 字体 -->
+    <color name="light_gray">#808080</color>
+    <!-- 深紫色 字体 -->
+    <color name="dark_purple">#664996</color>
+    <!-- 浅紫色 字体 -->
+    <color name="light_purple">#B6CCE8</color>
+
+    <!-- 通用颜色 -->
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+
+    <!-- ActionBar -->
+    <color name="actionbar_bg">#ff43b7c8</color>
+
+    <!-- 标题栏按钮按下效果。基于actionbar_backgrouind_start加深一级。 -->
+    <color name="actionbar_pressed">#e665d9ea</color>
+
+    <!-- 组合条目按下效果。基于白色加深一级。 -->
+    <color name="groupitem_pressed">#dddddd</color>
+
+    <!-- SliderMenu 背景色 -->
+    <color name="slider_bg">#F3F3F3</color>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/GroupContainer.Panel"
+    android:layout_width="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/message"
+        style="@style/GroupContainer.Panel"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:drawableBottom="@drawable/no_connection"
+        android:gravity="center"
+        android:padding="0dip"
+        android:text="@string/noconnection"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_16_size" />
+
+    <LinearLayout
+        style="@style/GroupContainer.Panel"
+        android:padding="0dip"
+        android:background="@android:color/transparent" >
+
+        <Button
+            android:id="@+id/set_network"
+            style="@style/CommonView.Button.Cyan"
+            android:layout_margin="@dimen/distance_4_size"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/set_network" />
+
+        <Button
+            android:id="@+id/retry"
+            style="@style/CommonView.Button.Cyan"
+            android:layout_margin="@dimen/distance_8_size"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/redo" />
+
+        <Button
+            android:id="@+id/back"
+            style="@style/CommonView.Button.Cyan"
+            android:layout_margin="@dimen/distance_4_size"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/back" />
+    </LinearLayout>
+
+</LinearLayout>
